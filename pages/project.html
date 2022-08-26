@@ -76,17 +76,27 @@
     <main class="min-h-screen">
       <section class="px-10 md:px-20 lg:px-40 py-14 md:py-20">
         <div>
-          <div class="grid grid-cols-2 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="">
               <!-- main image -->
-              <div class="w-80 h-80 mx-auto">
-                <img
-                  class="w-full h-full rounded-md cursor-pointer"
-                  src="../resources/default.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
+              <a
+                class="relative h-full w-full"
+                href="project-image-preview.html"
+              >
+                <div class="absolute h-full w-full">
+                  <div
+                    class="bg-opacity-0 opacity-0 hover:bg-opacity-50 hover:opacity-100 transition ease-in-out delay-100 mx-1 rounded-md h-full bg-black"
+                  >
+                    <span class="grid place-items-center h-full text-white"
+                      >Click to preview</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="w-80 h-80 mx-auto rounded-md bg-cover bg-no-repeat bg-center bg-[url('../resources/default-2.jpg')]"
+                ></div>
+              </a>
+              <div class="w-80 mx-auto">
                 <!-- thumbnails -->
                 <div class="grid grid-cols-5 gap-2 pt-3">
                   <div>
@@ -139,7 +149,7 @@
           </div>
           <div class="text-center my-5">
             <h3 class="text-lg font-bold">TITLE OF THE PROJECT</h3>
-            <p class="px-20">
+            <p class="px-0 sm:px-10 md:px-20">
               This Section Is About What The Project Is. Just Little
               Discription, it will probably be bigger and longer
             </p>
