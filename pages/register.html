@@ -10,7 +10,81 @@
 
   </head>
   <body>
-    
+    <header class="sticky top-0 z-40">
+      <section class="bg-red-800">
+        <div
+          class="flex justify-between items-center px-10 lg:px-30 xl:px-40 py-1 md:py-3"
+        >
+          <div>
+            <a href="/index.html">
+              <img
+                class="h-14 md:h-20"
+                src="../resources/amue-logo.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="hidden md:block">
+            <nav>
+              <ul class="flex text-white text-md font-semibold">
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a
+                    class="text-sm lg:text-md xl:text-lg border-b"
+                    href="/index.html"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/projects.html">Projects</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/practices.html">Practices</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/services.html">Services</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/contact_us.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hidden md:block">
+            <div class="flex gap-2">
+              <div
+                class="bg-red-900 hover:bg-red-700 text-white border rounded-xl px-5 py-1 cursor-pointer"
+              >
+                <a class="border-b" href="/pages/login.html">Sign in</a>
+              </div>
+              <div
+                class="bg-red-900 hover:bg-red-700 text-white border rounded-xl px-5 py-1 cursor-pointer"
+              >
+                <a class="border-b" href="/pages/register.html">Sign up</a>
+              </div>
+            </div>
+          </div>
+          <div class="block md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </header>
     <main class="min-h-screen">
 
       <section>
@@ -54,6 +128,12 @@
       </section>
       
     </main>
-
+    <footer class="">
+      <section class="bg-red-800 w-screen py-1">
+        <div class="text-center">
+          <span class="text-white">@2022 AMUE STUDIO</span>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
