@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script>tailwind318 -->
+    <script src="../js/tailwind318.js"></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="sticky top-0 z-40">
+      <section class="bg-red-800">
+        <div
+          class="flex justify-between items-center px-10 lg:px-30 xl:px-40 py-1 md:py-3"
+        >
+          <div>
+            <img class="h-14 md:h-20" src="../resources/amue-logo.png" alt="" />
+          </div>
+          <div class="hidden md:block">
+            <nav>
+              <ul class="flex text-white text-md font-semibold">
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a
+                    class="border-b sm:text-yellow-300 md:text-blue-300 lg:text-red-300"
+                    href=""
+                    >Home</a
+                  >
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/projects.html">Projects</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/practices.html">Practices</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/services.html">Services</a>
+                </li>
+                <li class="px-2 lg:px-4 xl:px-6 py-1">
+                  <a class="border-b" href="/pages/contact_us.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hidden md:block">
+            <div class="flex gap-2">
+              <div
+                class="bg-red-900 hover:bg-red-700 text-white border rounded-xl px-5 py-1 cursor-pointer"
+              >
+                <a class="border-b" href="">Sign in</a>
+              </div>
+              <div
+                class="bg-red-900 hover:bg-red-700 text-white border rounded-xl px-5 py-1 cursor-pointer"
+              >
+                <a class="border-b" href="">Sign up</a>
+              </div>
+            </div>
+          </div>
+          <div class="block md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="min-h-screen">
+      <section class="px-10 md:px-20 py-14 md:py-20">
+        <div>
+          <h2 class="text-center text-xl font-bold">How We Work</h2>
+          <div class="px-10 md:px-20 lg:px-40 my-5">
+            <p class="text-center">
+              I help designers, small agencies and businesses bring their ideas
+              to life. Powered by Figma, VS Code and coffee, I turn your
+              requirements into a well-designed websites
+            </p>
+          </div>
+          <div class="w-full mx-auto my-10">
+            <!-- list of works -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left text">
+                  Discover
+                </h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left">Define</h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left">Design</h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left">Discover</h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left">Define</h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="w-16 h-16 rounded-full bg-gray-300 p-5 mx-auto md:ml-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-center md:text-left">Design</h3>
+                <p class="my-2 text-center md:text-left">
+                  In this, one has to research and investigate the background of
+                  the problem and work on ground level to find where it started.
+                  They should consider the Who, What, Where, When, Why, and How
+                  of the background. As an outcome, you’ll have a better
+                  understanding of your problem and its background.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-red-900 bg-opacity-70 px-10 md:px-20 pt-5 pb-14">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="lg:col-start-2">
+            <h3 class="text-center lg:text-left font-bold text-3xl text-white">
+              Why Choose Us
+            </h3>
+          </div>
+          <div class="">
+            <div class="grid grid-rows-2 grid-flow-col gap-3 h-60 lg:h-full">
+              <div class="row-span-2 bg-gray-300"></div>
+              <div class="bg-gray-300"></div>
+              <div class="bg-gray-300"></div>
+            </div>
+          </div>
+          <div class="text-center lg:text-left">
+            <div class="text-white">
+              <h4 class="font-bold">Best Quality</h4>
+              <p class="mt-2 text-sm xs:px-10 sm:px-20 lg:px-0">
+                We listen to our client requirements and then select the right
+                solution that fits. We care for your business as our own. We
+                take a sincere interest in it and genuinely want to help your
+                company reach its potential.
+              </p>
+            </div>
+            <div class="text-white my-5">
+              <h4 class="font-bold">24x7 Live Support</h4>
+              <p class="mt-2 text-sm xs:px-10 sm:px-20 lg:px-0">
+                Our support staff doesn’t sleep, if you ever have a problem with
+                any of our services there is always somebody on hand to help
+                you.
+              </p>
+            </div>
+            <div class="text-white my-5">
+              <h4 class="font-bold">Award Winning Team</h4>
+              <p class="mt-2 text-sm xs:px-10 sm:px-20 lg:px-0">
+                We listen to our client requirements and then select the right
+                solution that fits. We care for your business as our own. We
+                take a sincere interest in it and genuinely want to help your
+                company reach its potential.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="px-10 md:px-20 pt-3 pb-6">
+        <div class="grid grid-cols-2 sm:grid-cols-4">
+          <div class="text-center py-5">
+            <div class="text-xl">87</div>
+            <div class="text-xs my-2">Total Work Completed</div>
+            <div class="bg-gray-300 h-5 w-5 mx-auto"></div>
+          </div>
+          <div class="text-center py-5">
+            <div class="text-xl">87</div>
+            <div class="text-xs my-2">Total Work Completed</div>
+            <div class="bg-gray-300 h-5 w-5 mx-auto"></div>
+          </div>
+          <div class="text-center py-5">
+            <div class="text-xl">87</div>
+            <div class="text-xs my-2">Total Work Completed</div>
+            <div class="bg-gray-300 h-5 w-5 mx-auto"></div>
+          </div>
+          <div class="text-center py-5">
+            <div class="text-xl">87</div>
+            <div class="text-xs my-2">Total Work Completed</div>
+            <div class="bg-gray-300 h-5 w-5 mx-auto"></div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-red-900 bg-opacity-70 px-10 md:px-20 py-3">
+        <div class="flex justify-between">
+          <div class="text-white text-xl">
+            Would You Like to Start a Project With Us?
+          </div>
+          <a href="">
+            <div class="text-xl bg-white hover:bg-gray-200 px-4 py-0.5">
+              Talk to us
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="">
+      <section class="bg-red-800 w-screen py-1">
+        <div class="text-center">
+          <span class="text-white">@2022 AMUE STUDIO</span>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
